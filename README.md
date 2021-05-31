@@ -14,3 +14,4 @@ curl https://raw.githubusercontent.com/fantacinni/iplist/main/Import-FirewallBlo
 
 To delete rules created by this script, run
 curl https://raw.githubusercontent.com/fantacinni/iplist/main/Import-FirewallBlocklist.ps1 -O Import-FirewallBlocklist.ps1
+./Import-FirewallBlocklist.ps1 -rulename iplist -deleteonly
